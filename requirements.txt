@@ -1,5 +1,4 @@
 streamlit
 matplotlib
-bs4 
-PIL 
+bs4
 wordcloud 
