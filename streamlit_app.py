@@ -20,7 +20,7 @@ from PIL import Image
 from wordcloud import WordCloud
 
 # CREATE DATAFRAME FROM CSV
-net_df = pd.read_csv("/workspaces/netflix_explorer2025/netflix_titles.csv")
+net_df = pd.read_csv("netflix_titles.csv")
 
 
 # [DA1] CLEAN THE DATA
