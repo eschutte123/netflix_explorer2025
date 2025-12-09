@@ -1,6 +1,3 @@
-import streamlit as st
-
-
 """
 Name: Eleri Schutte, Raegan Rapoza, Sophia Higgins
 Data: Netflix Titles
@@ -21,7 +18,9 @@ from PIL import Image
 from wordcloud import WordCloud
 
 # CREATE DATAFRAME FROM CSV
-net_df = pd.read_csv("/workspaces/netflix_explorer2025/netflix_titles.csv")
+net_df = pd.read_csv(r"//workspaces/netflix_explorer2025/Version4.py")
+#net_df = pd.read_csv(r"C:\Users\student\OneDrive - Bentley University\Bentley Fall 25\CS 602\proj scratch\netflix_titles.csv")
+#net_df = pd.read_csv(r"C:/Users/Raegan/OneDrive - Bentley University/CS602/Project/netflix_titles.csv")
 
 
 # [DA1] CLEAN THE DATA
